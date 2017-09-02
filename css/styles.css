@@ -1,9 +1,36 @@
-.logo {
-	padding-left: 10px;
-}
-.parallax{
-  position:static;
-}
-.parallax-container {
-      height: 500px;
+ .parallax-container {
+      height: 400px;
     }
+.logo{
+  padding-left: 10px;
+}
+ h1 {
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s;
+    animation-delay: 2s;
+    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}  
+.cta {
+  font-size: 35px;
+  font-weight: 300px;
+  text-shadow: 1px 1px black;
+}
+.cform{
+  padding-top: 40px;
+}
+.project{
+  padding-top: 10px;
+}
