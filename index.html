@@ -19,37 +19,139 @@
       <a href="#!" class="brand-logo"><span class="logo"<b>Shubham Chinda</b></span></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
     <!-- parallax -->
   <div class="parallax-container">
-    <div class="parallax"><img src="photo/ohyeah.jpg" width="100%" ></div>
+    <div class="parallax"><img src="https://static.pexels.com/photos/541522/pexels-photo-541522.jpeg" width="100%"></div>
   </div>
-  <div class="section white">
+  <div class="section white" id="about">
     <div class="row container">
-      <h2 class="header">Hey I'm Shubham</h2>
+      <h1 class="header" >Hey I'm Shubham!</h1>
       <p class="grey-text text-darken-3 lighten-3">A front-end developer from New-Delhi, India. I'm learning react from past few days, Hope to be react developer very soon!</p>
     </div>
   </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="photo/pexels-photo.jpg" width="100%" ></div>
+  <div class="parallax-container valign-wrapper">
+    <div class="container">
+      <div class="row center">
+      <div class="col l10 offset-l1">
+        <h2 class="center-align white-text cta">Interested in working together?</h2>
+        <a href="#contact" class="cente btn-large hoverable red accent-2 waves-effect waves-light ">GET IN TOUCH</a>
+        </div
+      </div>
+    </div>
+    <div class="parallax"><img src="https://static.pexels.com/photos/74158/studjo-yavor-miastko-74158.jpeg" width="100%"></div>
   </div>
-
-<!--Import jQuery before materialize.js-->
-<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <!-- Compiled and minified JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/javscript.js"></script>
+    </div>
+<!-- Projects-->
+<div class="container text-center">
+  <h2 class="section-header positioner project" id="projects">Some Projects</h2>
+  <div class="row">
+    <div class="col s12 m6 13">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://static.pexels.com/photos/242492/pexels-photo-242492.jpeg">
+            </div>
+              <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">React Weather App<i class="material-icons right">More info</i></span>
+                <p><a href="http://afternoon-forest-96853.herokuapp.com/" target="_blank"><b>Link</b></a></p>
+              </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">React Weather App<i class="material-icons right">close</i></span>
+                <p>I made a simple react weather application.In this application we can get the weather data by searching the city name.</p>
+              </div>
+      </div>
+          
+    </div>
+    <div class="col s12 m6 13">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://static.pexels.com/photos/242492/pexels-photo-242492.jpeg">
+            </div>
+              <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">React Weather App<i class="material-icons right">More info</i></span>
+                <p><a href="http://afternoon-forest-96853.herokuapp.com/" target="_blank"><b>Link</b></a></p>
+              </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">React Weather App<i class="material-icons right">close</i></span>
+                <p>A simple weather application on React.</p>
+              </div>
+      </div>
+          
+    </div>
+    
+  </div>
+</div>
+    <!-- Contact-->
+    <div class="container" id="contact">
+      <div class="row">
+        <h2 class="section-header">Contact Me</h2>
+      </div>
+    </div>
+    <div class="container blue-grey lighten-4 cform" >
+      <div class="row">
+        <div class="col l8 offset-l2 m12 s12">
+          <div class="row">
+            <form class="col s12 " enctype="text/plain" method="get" action="mailto:shubhamchinda07@gmail.com">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate ">
+                  <label for="first_name" >First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+               <div class="row">
+                <div class="input-field col s12">
+                  <textarea rows="5" cols="40" name="comments" class="validate "></textarea>
+                  <label>Write about your project.</label>
+                </div>
+              </div>
+              <input class="cente btn-large hoverable red accent-2 waves-effect waves-light  light-blue accent-2" type="submit" value="Send">
+            </form>
+          </div>         
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <footer class="page-footer blue-grey darken-2">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Front-End Developer</h5>
+            <ul>
+              <li class="grey-text text-lighten-4">HTML</li>
+              <li class="grey-text text-lighten-4">CSS</li>
+              <li class="grey-text text-lighten-4">JAVASCRIPT</li>
+            </ul>
+          </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white=text">Links</h5>
+        <ul>
+          <li><a href="#projects" class="grey-text text-lighten-3">Projects</a></li>
+          <li><a href="#about" class="grey-text text-lighten-3">About</a></li>
+          <li><a href="#contact" class="grey-text text-lighten-3">Contact</a></li>
+        </ul>
+          </div>
+        </div>
+        </div>
+    </footer>
 </body>
 </html>
